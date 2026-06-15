@@ -3,8 +3,8 @@
 
 Made use of Claude code free version (Sonnet 4.6 model) to get overall structure of the code.
 Used prompts like: 
-    - List S3 bucket using Python and add/delete file(s) to and from S3 bucket.
-    - For Part4 - Used entire questions and asked Claude to provide a solution to automate execution using lambda function 
+- List S3 bucket using Python and add/delete file(s) to and from S3 bucket.
+- For Part4 - Used entire questions and asked Claude to provide a solution to automate execution using lambda function 
 Refined the code as per the requirement.
 While getting any error during execution, used ChatGpt to resolve error.
 Have faced errors, getting connected to S3 bucket and listing files (It was first time dealing with S3 bucket). ChatGPT helped and got aws configure in my local machine (with aws cli installtion).
