@@ -1,0 +1,7 @@
+boto3
+pandas
+requests
+beautifulsoup4
+logging
+aws-cdk-lib
+constructs
