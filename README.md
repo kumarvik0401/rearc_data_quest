@@ -1,10 +1,10 @@
 # Rearc Data Quest – Solution
-[text](https://github.com/rearc-data/quest)
+[rearc-dataQuest](https://github.com/rearc-data/quest)
 
 Made use of Claude code free version (Sonnet 4.6 model) to get overall structure of the code.
 Used prompts like: 
-    * List S3 bucket using Python and add/delete file(s) to and from S3 bucket.
-    * For Part4 - Used entire questions and asked Claude to provide a solution to automate execution using lambda function 
+    - List S3 bucket using Python and add/delete file(s) to and from S3 bucket.
+    - For Part4 - Used entire questions and asked Claude to provide a solution to automate execution using lambda function 
 Refined the code as per the requirement.
 While getting any error during execution, used ChatGpt to resolve error.
 Have faced errors, getting connected to S3 bucket and listing files (It was first time dealing with S3 bucket). ChatGPT helped and got aws configure in my local machine (with aws cli installtion).
@@ -23,9 +23,6 @@ rearc-quest/
     ├── app.py                # CDK app entrypoint
     └── cdk_stack.py          # Full pipeline stack
 ```
-
----
-
 ## Part 1 – BLS Sync
 
 **Key design decisions:**
